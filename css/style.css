@@ -1,0 +1,431 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-family: 'Asap', sans-serif;
+}
+
+main {
+	width: 1500px;
+	margin: auto;
+}
+
+#topnav {
+	height: 150px;
+}
+
+.logo {
+	padding-top: 10px;
+	padding-left: 40px;
+}
+
+.logo2 {
+	display: none;
+}
+
+#nav2 {
+	display: none;
+}
+
+.logo img {
+	position: absolute;
+	width: 150px;
+	height: 150px;
+}
+
+nav {
+	float: right;
+	margin-top: 90px;
+}
+
+nav ul {
+	display: flex;
+	justify-content: end;
+	list-style: none;
+}
+
+.rech  {
+	margin: -1px;
+}
+
+nav ul li {
+	padding: 26px;
+}
+
+nav ul a {
+	text-decoration: none;
+}
+
+nav ul li:nth-child(1) {
+	width: 175px;
+	background-color: #2F98A4;
+	text-align: center;
+	color: #000;
+	font-weight: bold;
+}
+
+nav ul li:nth-child(1):hover {
+	background-color: #094D66;
+	color: #fff;
+}
+
+#don {
+	width: 175px;
+	background-color: #DB6E1E !important;
+	text-align: center;
+	color: #fff !important;
+	font-weight: bold;
+}
+
+#don:hover {
+	background-color: #C4EB5C !important;
+	color: #000 !important;
+}
+
+#banniere {
+	height: 30.25vw;
+}
+
+#titre {
+	position: absolute;
+	bottom: 245px;
+	left: 225px;
+}
+
+h1 {
+	padding-top: 30px;
+	font-size: 3em;
+	color: #fff;
+}
+
+#titre p {
+	font-size: 1.5em;
+	color: #fff;
+}
+
+ video {
+ 	width: 100%;
+ 	height: 100%;
+ }
+
+.descrip {
+	padding-top: 50px;
+	font-weight: bold;
+	font-size: 1em;
+}
+
+#police-verte {
+	padding-top: 20px;
+	color: #2F98A4;
+}
+
+.articles {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 20px;
+}
+
+article {
+	width: 360px;
+	height: 505px;
+	background-color: #EDF0F0;
+}
+
+.articles img {
+	width: 360px;
+	height: 225px;
+}
+
+article p {
+	padding: 30px 10px;
+	color: #2F98A4;
+}
+
+a h3 {
+	padding: 10px 30px;
+	background-color: #fff;
+	position: absolute;
+	margin-top: -30px;
+	margin-left: 110px;
+	box-shadow: 3px 3px 3px #666;
+	color: #000;
+}
+
+a h3:hover {
+	border-bottom: 3px solid #000;
+}
+
+.alim {
+	margin-left: 80px;
+}
+
+.mapForm {
+	padding-top: 20px;
+	padding-bottom: 50px;
+	display: flex;
+	justify-content: space-between;
+}
+
+h2 {
+	padding-bottom: 20px;
+	padding-left: 10px;
+}
+
+.map {
+	width: 50%;
+	border-right: 2px solid #000;
+}
+
+.formulaire {
+	width: 50%;
+}
+
+.formInput {
+	text-align: center;
+}
+
+.minInput {
+	height: 30px;
+	width: 246px;
+	margin-bottom: 20px;
+}
+
+.maxInput {
+	height: 30px;
+	width: 500px;
+	margin-bottom: 20px;
+}
+
+textarea {
+	height: 150px;
+	width: 502px;
+	margin-bottom: 20px;
+}
+
+button {
+	width: 150px;
+	height: 25px;
+	background-color: #EDF0F0;
+}
+
+footer {
+	border-top: 1px solid #000;
+}
+
+footer p {
+	margin-top: 10px;
+	text-align: right;
+}
+
+@media all and (max-width: 768px)
+{
+
+main {
+	width: 100%;
+}
+
+#topnav {
+	height: 210px;
+}
+
+.logo {
+	display: none;
+}
+
+.logo2 {
+	display: block;
+	text-align: center;
+}
+
+.logo2 img {
+	width: 150px;
+	height: 150px;
+	margin-bottom: 60px;
+}
+
+nav {
+	float: none;
+	margin-top: -56px;
+}
+
+nav ul  {
+	justify-content: center;
+}
+
+nav ul li {
+	padding: 15px;
+}
+
+nav ul li:nth-child(1) {
+	width: 65px;
+	font-size: 10px;
+}
+
+#don {
+	width: 65px;
+	font-size: 10px;
+	padding: 21px 15px;
+}
+
+#titre {
+	bottom: 470px;
+	left: 60px;
+}
+
+h1 {
+	padding-top: 10px;
+	font-size: 1.5em;
+}
+
+#titre p {
+	font-size: 1em;
+}
+
+.descrip {
+	margin: 0 10px;
+}
+
+.articles {
+    flex-wrap: wrap;
+}
+
+article {
+	width: 47%;
+	margin: 10px;
+}
+
+.articles img {
+	width: 100%;
+}
+
+iframe {
+	padding-left: 10px;
+	width: 95%;
+	height: 50%;
+}
+
+.maxInput {
+	width: 246px;
+}
+
+textarea {
+	width: 246px;
+}
+
+button {
+	margin-left: 0;
+}
+
+}
+
+@media all and (max-width: 640px)
+{
+
+main {
+	width: 100%;
+}
+
+.menu img {
+	width: 48px;
+	height: 48px;
+}
+
+.logo2 {
+	display: none;
+}
+
+#topnav {
+	height: 225px;
+}
+
+#nav1 {
+	display: none;
+}
+
+#nav2 {
+	height: 210px;
+	display: block;
+}
+
+#nav2 li {
+	background-color: transparent;
+}
+
+#flexnav2 {
+	display: flex;
+	justify-content: space-between;
+}
+
+ul li img {
+	width: 125px;
+	height: 125px;
+}
+
+.logo3 {
+	margin-top: 60px;
+}
+
+#menu-burger {
+	margin-top: 125px;
+	width: 55px;
+	height: 55px;
+}
+
+#phone {
+	margin-top: 125px;
+	width: 55px;
+	height: 55px;
+	padding-left: 20px;
+}
+
+#titre {
+	bottom: 535px;
+	left: 40px;
+}
+
+h1 {
+	padding-top: 10px;
+	font-size: 1em;
+}
+
+#titre p {
+	font-size: 0.5em;
+}
+
+.descrip {
+	padding-top: 20px;
+}
+
+article {
+	width: 95%;
+	margin: auto;
+	margin-bottom: 10px;
+}
+
+.mapForm {
+	flex-direction: column;
+}
+
+.map {
+	width: 99%;
+	border: none;
+	text-align: center;
+}
+
+.map h2 {
+	text-align: left;	
+}
+
+.formulaire {
+	width: 95%;
+	margin: auto;
+}
+
+.minInput, .maxInput, .mainInput, textarea, button {
+	width: 100%;
+}
+
+iframe {
+	padding-bottom: 10px;
+}
+
+}
